@@ -17,7 +17,7 @@ public class Main {
         // add numbers that are divisible by 6
         for (int i = 0; i < array.length; i++) {
             int input = scanner.nextInt();
-            if (input % 6 == 0) {
+            if (input % divBySix == 0) {
                 sum += input;
             }
         }
